@@ -1,0 +1,28 @@
+#### BORIS ######
+
+https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplus_Verwaltungsgrenzen/           MapServer/              export?     dpi=96& transparent=true&format=png8&LANGUAGE=ger&layers=show%3A3&bbox=460943.2823596811%2C5772811.567021879%2C491804.73252982204%2C5788672.250391054&bboxSR=25832&imageSR=25832&size=1615%2C830&f=image
+
+
+https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplus_Bodenrichtwerte_2016_zonal/   MapServer/              export?     dpi=96& transparent=true&format=png8&LANGUAGE=ger&layers=show%3A1%2C2%2C4%2C5%2C7%2C8%2C10%2C11%2C13%2C14%2C16%2C17%2C18&bbox=463188.6200655582%2C5761068.928551568%2C478619.34515062865%2C5768999.270236155&bboxSR=25832&imageSR=25832&size=1615%2C830&f=image
+
+Suche nach der Strasse (vorschläge):
+https://www.gis-rest.nrw.de/    bkg/    gdz_ortssuche/  suggest?        outputformat=json&                      query=uhlandstra&       count=5&    filter=bundesland%3ANordrhein-Westfalen
+
+Information über Konkrete Adresse (Koordinaten Etc):
+https://www.gis-rest.nrw.de/    bkg/    gdz_ortssuche/  geosearch?      outputformat=json&                      query=uhlandstrasse&    count=1&    filter=bundesland%3ANordrhein-Westfalen&srsName=EPSG%3A25832
+
+Overlau der aktuellen richtwerte
+https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplus_Bodenrichtwerte_2016_zonal/   MapServer/              export?     dpi=96&     transparent=true&format=png8&LANGUAGE=ger&layers=show%3A1%2C2%2C4%2C5%2C7%2C8%2C10%2C11%2C13%2C14%2C16%2C17%2C18&bbox=486321.2288510915%2C5760902.239182357%2C487285.6491689084%2C5761397.885537643&bboxSR=25832&imageSR=25832&size=1615%2C830&f=image
+
+Aktuellen Werte:
+https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplus_Bodenrichtwerte_2016_zonal/   MapServer/              identify?   f=json&     tolerance=0&returnGeometry=true&imageDisplay=1615%2C830%2C96&geometry=%7B%22x%22%3A486804.3347564252%2C%22y%22%3A5761158.422659969%7D&geometryType=esriGeometryPoint&sr=25832&mapExtent=486321.2288510915%2C5760902.239182357%2C487285.6491689084%2C5761397.885537643&layers=visible%3A1%2C2%2C4%2C5%2C7%2C8%2C10%2C11%2C13%2C14%2C16%2C17%2C18&callback=dojo.io.script.jsonp_dojoIoScript7._jsonpCallback
+
+Infomation über Gutachterausschüsse
+https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplus_Gutachterausschuesse/         MapServer/0/query?      f=json&     returnGeometry=false&spatialRel=esriSpatialRelIntersects&geometry=%7B%22x%22%3A486804.3347564252%2C%22y%22%3A5761158.422659969%2C%22spatialReference%22%3A%7B%22wkid%22%3A25832%7D%7D&geometryType=esriGeometryPoint&inSR=25832&outFields=*&outSR=25832&callback=dojo.io.script.jsonp_dojoIoScript8._jsonpCallback
+
+
+
+
+#### BERTELSMANN STATISTIKEN #####
+
+http://www.wegweiser-kommune.de/wk-portlets/rest/region/get/Heiden

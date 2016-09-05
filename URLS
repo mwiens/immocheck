@@ -5,11 +5,6 @@ https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplu
 
 https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplus_Bodenrichtwerte_2016_zonal/   MapServer/              export?     dpi=96& transparent=true&format=png8&LANGUAGE=ger&layers=show%3A1%2C2%2C4%2C5%2C7%2C8%2C10%2C11%2C13%2C14%2C16%2C17%2C18&bbox=463188.6200655582%2C5761068.928551568%2C478619.34515062865%2C5768999.270236155&bboxSR=25832&imageSR=25832&size=1615%2C830&f=image
 
-Suche nach der Strasse (vorschläge):
-https://www.gis-rest.nrw.de/    bkg/    gdz_ortssuche/  suggest?        outputformat=json&                      query=uhlandstra&       count=5&    filter=bundesland%3ANordrhein-Westfalen
-
-Information über Konkrete Adresse (Koordinaten Etc):
-https://www.gis-rest.nrw.de/    bkg/    gdz_ortssuche/  geosearch?      outputformat=json&                      query=uhlandstrasse&    count=1&    filter=bundesland%3ANordrhein-Westfalen&srsName=EPSG%3A25832
 
 Overlau der aktuellen richtwerte
 https://www.gis.nrw.de/         arcgis/ rest/services/  mik_borisplus/  BORISplus_Bodenrichtwerte_2016_zonal/   MapServer/              export?     dpi=96&     transparent=true&format=png8&LANGUAGE=ger&layers=show%3A1%2C2%2C4%2C5%2C7%2C8%2C10%2C11%2C13%2C14%2C16%2C17%2C18&bbox=486321.2288510915%2C5760902.239182357%2C487285.6491689084%2C5761397.885537643&bboxSR=25832&imageSR=25832&size=1615%2C830&f=image
